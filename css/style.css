@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#FAFAFA;
+    ;
+}
+
+li {
+    list-style: none;
+    
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+}
+
+nav {
+    width: 244px;
+    /*height: 2481px;*/
+    margin-top: 4px;
+    margin-left: 249px;
+    background: #FFFFFF;
+
+}
+
+
+
+nav span img {
+    margin-top: 40px;
+    margin-left: 24px;
+    
+}
+
+#perfil {
+    width: 935px;
+    height: 267px;
+    /*background-color: #ccc;*/
+    padding: 73px 0px 44px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fotoperfil {
+    width: 150px;
+    height: 150px;
+          
+    
+
+}
+
+#fotoperfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    margin: 0px 101px 0px 71px;
+    
+   
+}
+
+#perfil ul {
+    padding-left: 146px;
+   /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;*/
+    
+    
+}
+
+
+
+
+#perfil li img {
+    width: 45px;
+    height: 40px;
+    padding: 0px;
+}
+
+#lineUno {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: end;*/
+ 
+}
+
+
+
+#nombre {
+    font-family: Segoe UI;
+    font-size: 28px;
+   /*width: 350px;*/
+}
+
+#follow {
+    width: 90px;
+    height: 30px;
+    font-family: Segoe UI;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 12px;
+    font-size: 14px;
+    background-color: #0095F6;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+
+#tag{
+    width: 613px;
+    height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+}
+
+#tag li {
+    padding-right: 40px;
+}
+
+#tag li span:nth-child(1) {
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 16px;
+    color: #262626;
+}
+
+#tag li span:nth-child(2) {
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-size: 16px;
+    color: #262626;
+    padding-left: 5px;
+}
+
+#perfil ul li:nth-child(3) {
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 16px;
+    color: #262626;
+}
+
+
+#story ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 44px 76px;
+} 
+
+#story li {
+    width: 125px;
+    height: 130px;
+    
+}
+
+#story li span:nth-child(1) {
+    
+    width: 77px;
+    height: 77px;
+    display: block;
+}
+
+#story li span:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#story li span:nth-child(2) {
+    
+    padding-left: 11px;
+    padding-top: 15px;
+    display: block;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+#toogle {
+    width: 935px;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-top-width: 1px; 
+    border-top-style: solid; 
+    border-top-color: #DBDBDB; 
+}
+
+#toogle ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#toogle ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 114px;
+}
+
+/*#toogle ul li span:nth-child(1) {
+    
+    color: #262626;
+    
+}*/
+
+
+
+#toogle ul li span:nth-child(2) {
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-weight: 600;
+    color: #8E8E8E;
+    display: block;
+    padding-left: 6px;
+}
+
+#toogle ul li:nth-child(1) span {
+    
+    color: #262626;
+    
+}
+
+
+
+
+#menu ul {
+    width: 220px;
+    height: 448px;
+    margin-left: 12px;
+    margin-top: 31px;
+}
+
+#menu li img{
+    margin: 0px;
+    padding: 0px;
+}
+
+#galeria {
+    width: 963px;
+    height: 1898px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#galeria li {
+    
+    padding-right: 28px;
+}
+
+#galeria li img {
+
+    width: 293px;
+    height: 293px;
+    
+}
+
+/*footer {
+    width: 662px;
+    height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}*/
+
+
+#footerUno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer ul li{
+    
+    font-family: Segoe UI;
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 8px 12px 8px;
+
+}
+
+footer ul:nth-child(2) {
+    display: flex;
+    padding-left: 620px;
+}
+
+footer ul:nth-child(2) li {
+    padding-right: 20px;
+    font-family: Segoe UI;
+    color: #8E8E8E;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+
+
+
